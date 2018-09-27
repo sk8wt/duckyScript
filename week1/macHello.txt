@@ -1,0 +1,19 @@
+REM author: Simmy Bhatia
+REM date: 09/05/2018
+
+DEFAULTDELAY 250
+REM getting system set up
+DELAY 750
+
+REM searching for terminal
+GUI SPACE
+STRING terminal
+ENTER
+
+REM sending a command through the terminal
+STRING say 'HelloWorld! You just got hacked >:)'
+ENTER
+DELAY 2000
+
+REM close the terminal window
+GUI q
