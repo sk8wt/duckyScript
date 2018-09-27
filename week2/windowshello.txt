@@ -1,0 +1,8 @@
+REM Type Hello World into Windows notepad. Implementing & researching from the USB Rubber Ducky guide to learn more about rubber duckies. Author: sk8wt
+DELAY 1000
+GUI r
+DELAY 100
+STRING c:\windows\notepad.exe
+ENTER
+DELAY 1000
+STRING Hello World! :) 
