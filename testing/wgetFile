@@ -1,0 +1,21 @@
+REM Title: OS X wget for VM installation
+REM Script that downloads a file via wget and installs it onto a server
+
+DELAY 1000
+COMMAND SPACE
+DELAY 800
+STRING Terminal
+DELAY 500
+ENTER
+DELAY 500
+STRING ssh root@vmsrv03.cs.virginia.edu
+ENTER
+DELAY 1000
+STRING cyberhoos
+DELAY 1000
+STRING cd /vmfs/volumes/5bf217f7-b8f18da8-0468-509a4c8364cb/ISO
+DELAY 1000
+STRING wget http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso
+DELAY 690000
+STRING ls
+ENTER

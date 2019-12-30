@@ -1,0 +1,3 @@
+REM Installing x509 into the victim's browser
+REM Note: requires that internet explorer be the only active browser on the machine
+
